@@ -37,3 +37,91 @@
     transform: translateY(0px);
   }
 }
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+    margin-top: 10rem;
+    /* border: 2px solid; */
+  }
+  .form{
+    border: 2px solid;
+    padding: 3rem;
+    border-radius: 1px;
+    background-color: rgba(137, 178, 194, 0.274);
+    /* text-shadow: 2px 2px 5px red; */
+  }
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+    /* text-shadow: 2px 2px 5px red; */
+    box-shadow: 5px 10px;
+    border-radius: 7px;
+  }
+  .login-btn{
+    margin-top: 2rem;
+    /* margin-left: 4rem; */
+  }
+  .field{
+    margin-top: 2rem;
+    /* margin-left: 2rem; */
+  }
+}
+.login-page{
+  background-color: rgba(147, 43, 207, 0.13);
+  padding: 6rem;
+}
+.err{
+  color: red;
+}
+.row{
+  display: flex;
+}
+.card{
+  padding: 7rem;
+}
+.col-mr-10{
+  height:7rem;
+  width:60rem
+}
+.imageme{
+  margin-left: 0rem;
+  margin-top:3.5rem;
+  height: 11rem;
+}
+.card{
+  /* border:rgba(171, 194, 186, 0.925) solid; */
+  box-shadow: 5px 5px whitesmoke;
+  border-radius: 7px;
+  background-color: rgba(245, 94, 106, 0.842);
+  /* padding: -5rem; */
+  margin-bottom: 7rem;
+  margin-left:18rem;
+  margin-right: 18rem;
+  /* width: 100rem; */
+  /* position: relative;
+  z-index: 1; */
+
+}
+.bodyy{
+  /* padding: 19rem; */
+  position: relative;
+  z-index: 1;
+  filter: blur(5px);
+  height: 430rem;
+
+}
+.card-cont{
+  position: absolute;
+  z-index: 2;
+  top: 19rem;
+}
+.card-text{
+  display: flex;
+}
+.text-muted{
+  color: black;
+  margin-left: 2rem;
+}
+.button-cont{
+  margin-left: 30rem;
+}
