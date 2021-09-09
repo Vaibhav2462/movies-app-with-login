@@ -2,6 +2,9 @@
   "name": "movies",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.17.1"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^4.2.4",
